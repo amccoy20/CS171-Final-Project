@@ -45,13 +45,15 @@ int main()
 	int answer = 0;
 	answer = welcome_instructions();
 	if (answer == 0) {
-		menu();
-		if (answer = 1) {
+		int choice = 0;
+		 choice=menu();
+
+		if (choice == 1) {
 			offensive_playbook();
 
 
 		}
-		else if (answer = 2) {
+		else if (choice == 2) {
 			defensive_playbook();
 
 		}
